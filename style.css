@@ -1,0 +1,107 @@
+/* ========================== Configurações gerais */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+
+    font-family: 'Poppins', sans-serif;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*===============================================================================================================*/
+
+.menu {
+    display: flex;
+}
+
+/*===============================================================================================================*/
+
+.iconsImageMenu {
+    background-color: blueviolet;
+
+    width: 5vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.iconLogoHead {
+    background-color: aqua;
+
+    width: 100%;
+    height: 10%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconLogoHead img {
+    width: 90%;
+    height: 90%;
+}
+
+.iconsMenuBody {
+    background-color: blue;
+
+    width: 100%;
+    height: 75%;
+}
+
+.imageFooter {
+    background-color: burlywood;
+
+    width: 100%;
+    height: 15%;
+}
+
+/*===============================================================================================================*/
+
+.namesMenu {
+    background-color: brown;
+    width: 20vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.nameLogoHead {
+    background-color: aqua;
+
+    width: 100%;
+    height: 10%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.namesMenuBody {
+    background-color: blue;
+
+    width: 100%;
+    height: 75%;
+}
+
+.imageFooterContent {
+    background-color: burlywood;
+
+    width: 100%;
+    height: 15%;
+}
